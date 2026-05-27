@@ -129,7 +129,9 @@ const SLOT_CACHE = new Map();
 //   aclarado   : minutos de aclarado (se pinta con 🚿). Pon 0 si no tiene aclarado.
 // ─────────────────────────────────────────────
 const TIEMPOS_TINTE = {
-    'TINTE ORGANICO RAIZ':          { aplicacion: 15, espera: 30, aclarado: 15, espera2: 0  },
+    'TINTE CORTE':                  { aplicacion: 15, espera: 30, aclarado: 30, espera2: 0  },
+	'TINTE CORTE Y PEINADO':        { aplicacion: 15, espera: 30, aclarado: 60, espera2: 0  },
+	'TINTE Y LAVAR':                { aplicacion: 15, espera: 30, aclarado: 15, espera2: 0  },
     'TINTE MEDIO':                  { aplicacion: 15, espera: 30, aclarado: 15, espera2: 0  },
     'TINTE ORGANICO MEDIO':         { aplicacion: 15, espera: 30, aclarado: 15, espera2: 0  },
     'TINTE ORGANICO RETOQUE':       { aplicacion: 15, espera: 30, aclarado: 15, espera2: 0  },
